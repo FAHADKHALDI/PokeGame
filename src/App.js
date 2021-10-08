@@ -68,7 +68,7 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className="app fill-window">
       <div className="cards-container">
         {cards.map((card, index) => (
           <Card
